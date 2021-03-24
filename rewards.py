@@ -22,7 +22,7 @@ for i in range(len(value)-1):
 	if amount3<4:
 		amount3=4
 	if amount2>=80:
-		print("secretcli tx snip20 send secret1xzlgeyuuyqje79ma6vllregprkmgwgavk8y798  			"+wallet+" ", end='')
+		print("secretcli tx snip20 send secret1xzlgeyuuyqje79ma6vllregprkmgwgavk8y798 "+wallet+" ", end='')
 		print(amount3, end='')
 		print(" --from 'pete' --memo string staking")
 		print(" ")
